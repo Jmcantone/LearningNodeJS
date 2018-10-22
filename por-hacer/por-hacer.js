@@ -5,7 +5,7 @@ let listadoPorHacer = [];
 const guardarDB = () => {
     let data = JSON.stringify(listadoPorHacer);
 
-    fs.writeFile('db/data.json', data, (err)) => {
+    fs.writeFile('db/data.json', data, (err) => {
         if (err) throw new error('No se pudo grabar', err)
     });
 }
