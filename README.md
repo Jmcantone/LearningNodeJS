@@ -1,4 +1,4 @@
-## Tareas ToDo console app
+## Tareas console app
 
 Esta es una aplicación para generar tareas por hacer
 
